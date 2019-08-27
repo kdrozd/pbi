@@ -11,7 +11,7 @@ LABEL maintainer="drozd.krzysiek@gmail.com" \
   org.label-schema.docker.schema-version="1.0"
 
 # Add needed directories
-RUN mkdir -p /tmp/MTM
+RUN mkdir -p /tmp/MTM && chmod 777 /tmp/MTM
 
 
 # Install needed software
