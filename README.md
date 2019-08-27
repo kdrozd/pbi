@@ -7,12 +7,12 @@ Keep in mind that this is is lab/devel setup. It's not production ready.
 Not supported:
 
 - encryption of the database
+- running on OpenShift/Kubernetes
 
 ## Image information
 
 - Distribution: CentOS 7.6 latest
 - Instaled base packages
-- Created normal user so it can be used with Kubernetes/OpenShift
 
 ## Usage
 
