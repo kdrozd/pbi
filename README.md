@@ -2,6 +2,12 @@
 
 Base Images for PIP (tested with pip v02). They will help with transition original build from Ubuntu base distribution to more up to date CentOS base Images.
 
+Keep in mind that this is is lab/devel setup. It's not production ready.
+
+Not supported:
+
+- encryption of the database
+
 ## Image information
 
 - Distribution: CentOS 7.6 latest
